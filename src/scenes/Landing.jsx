@@ -53,8 +53,8 @@ const Landing = ({ setSelectedPage }) => {
             Sanskar {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20
-                    xs:before:content-brush before:absolute before:-left-[25px]
-                    before:-top-[70px] before:z-[-1] hover:text-white transition duration-500"
+                    xs:before:content-brush before:absolute before:-left-[35px]
+                    before:-top-[75px] before:z-[-1] hover:text-white transition duration-500"
             >
               Thapa
             </span>
