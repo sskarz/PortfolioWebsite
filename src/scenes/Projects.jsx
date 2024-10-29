@@ -84,13 +84,13 @@ const Projects = () => {
           </div>
           <Project
             title="Project-1"
-            subtitle="A website where users can find books, post books, write reviews, and engage in discussions on a message board!"
+            subtitle="A website where users can find books, post books, write reviews, and engage in discussions on a message board, built using Django!"
             project_title="Book Exchange Website"
             link="https://github.com/sskarz/Book-Store-Web-Project"
           />
           <Project
             title="Project-2"
-            subtitle="A custom fine-tuned GPT-2 model that imitates user input to generate text!"
+            subtitle="A custom fine-tuned GPT-2 model that imitates user input to generate text utilizing PyTorch and Tensorflow!"
             project_title="GPT-2 AI User Imitation"
             link="https://github.com/sskarz/GPT-2-AI-User-Imitation"
           />
