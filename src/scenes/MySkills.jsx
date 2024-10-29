@@ -75,6 +75,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]"></div>
           </div>
           <div className="mt-5">
+            <LineGradient />
             <ul>
               <li>Python</li>
               <li>JavaScript/TypeScript</li>
@@ -109,6 +110,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]"></div>
           </div>
           <div className="mt-5">
+            <LineGradient />
             <ul>
               <li>Github</li>
               <li>Docker</li>
@@ -143,6 +145,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]"></div>
           </div>
           <div className="mt-5">
+            <LineGradient />
             <ul>
               <li>React</li>
               <li>PyTorch</li>

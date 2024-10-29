@@ -5,7 +5,7 @@ const container = {
   hidden: {},
   visible: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.35,
     },
   },
 };
@@ -95,12 +95,26 @@ const Projects = () => {
             link="https://github.com/sskarz/GPT-2-AI-User-Imitation"
           />
 
-          {/* <div
-            className="flex justify-center text-center items-center p-10 bg-blue
+          <Project
+            title="Project-3"
+            subtitle="My Portfolio website built using React, TailwindCSS, and Framer Motion!"
+            project_title="Portfolio Website"
+            link="https://github.com/sskarz/PortfolioWebsite"
+          />
+
+          <Project
+            title="Project-4"
+            subtitle="A pizza menu website inspired by the design of California Pizza Kitchen, built using React and custom CSS!"
+            project_title="Pizza React Menu Website"
+            link="https://github.com/sskarz/pizza-menu"
+          />
+
+          <div
+            className="flex justify-center text-center items-center p-10 bg-blue hover:bg-yellow transition duration-500
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            SMOOTH USER EXPERIENCE
-          </div> */}
+            Smooth User Experience
+          </div>
         </motion.div>
       </div>
     </section>
